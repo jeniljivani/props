@@ -1,0 +1,734 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.d-flex
+{
+  display: flex;
+}
+.w-33{
+  width: 33%;
+  padding: 0 12px;
+}
+.pd-y{
+  padding: 50px 0;
+}
+a
+{
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+.container
+{
+  width: 1130px;
+  margin: auto;
+}
+li , ul li 
+{
+  list-style-type: none;
+}
+.tb-p
+{
+  padding: 50px 0px;
+}
+/* ******** TOP HEAFER START  **********8 */
+.topinfo
+{
+  background-color: #003366;
+  padding: 10px 0px;
+  color: white;
+}
+.headr
+{
+  justify-content: space-between;
+  align-items: center;
+}
+.leftinfo i
+{
+  padding-right: 5px;
+  font-size: 20px;
+}
+.leftinfo a
+{
+  padding-right: 12px ;
+}
+.leftinfo i:hover
+{
+  color: #E09D00;
+}
+.rightinfo li a
+{
+  padding-left: 7px ;
+  transition: 0.3s;
+}
+.topinfo .rightinfo li a:hover
+{
+  color: #E09D00;
+}
+/* ******** TOP HEAFER START *********** */
+
+/* ******** HEADER START *********** */
+header
+{
+  padding: 10px 0px;
+}
+header .d-flex{
+  
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img{
+  height: 60px;
+}
+.main-menu li a{
+  padding-left:30px;
+  padding-right: 10px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  position: relative;
+  transition: 0.3s;
+} 
+header .main-menu li:hover
+{
+  color: #FFBC06;
+}
+
+.menu_icon{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-35%);
+  margin-left: 1px;
+}
+
+/* ************** HEADER START *********** */
+
+/* ********* slider start *********** */
+.slider img{
+  width: 100%;
+}
+/* ********* slider end ************* */
+/* **************  cours start ******** */
+
+.course-head .line{
+  height: 3px;
+  width: 20px;
+  background-color: orange;
+  position: absolute;
+  left: 42%;
+  top: 50%;
+  margin-right: 10px;
+}
+
+.course-head
+{
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.course h1{
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.course-img{
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.course-img .w-33{
+  /* width: calc(33.33% - 24px); */
+  padding: 0 12px;
+}
+
+.course-img img{
+  width: 100%;
+  border-radius: 20px 20px 0px 0px ;
+}
+
+.course-img .content{
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.course-img .content:hover
+{
+  box-shadow: 2px 2px 7px rgb(151, 151, 151) , -2px -2px 7px rgb(151, 151, 151);
+}
+
+.course .course-img .content h2{
+  padding:15px;
+  font-weight: 500;
+  font-size: 25px;
+  border-bottom: 1px solid gray;
+}
+
+.course-img .d-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-img .w-33{
+  margin-bottom: 24px;
+}
+
+.course-bottom{
+  padding: 15px 15px;
+}
+
+.course-bottom .social{
+  color: darkgoldenrod;
+  font-size: 20px;
+}
+
+.course-btn button{
+  background-color: #003366;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 17px;
+  transition: 0.3s;
+}
+
+.course-btn a{
+  color: white;
+  text-decoration: none;
+}
+.course-btn button:hover
+{
+  background-color: #EAA800 ;
+}
+
+.btn-all-courses{
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30px;
+}
+
+.btn-all-courses a{
+  background-color: #FFBC06;
+  color: white;
+  padding: 15px 40px 15px 30px;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+.btn-all-courses .arrow{
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.btn-all-courses a:hover{
+  background-color: #E09D00;
+}
+/* ************* cours end ************ */
+/* *************** about us start*************************8 */
+.about
+{
+  width: 60%;
+  height: 100%;
+  border-radius: 0 250px 250px  0;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+  box-shadow: 2px -2px 5px gray ,2px 2px 5px gray ;
+}
+.about .content
+{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  padding: 8% 0px;
+  margin-right: 10%;
+  /* padding-right: 5%; */
+  text-align: justify;
+}
+.about-content
+{
+  align-items: center;
+}
+.about .detail
+{
+  color: #888888;
+  margin-bottom: 16px;
+}
+.about-head
+{
+  padding-bottom: 8px;
+  position: relative;
+  text-transform: uppercase;
+  margin-left: 27px;
+}
+.about h6
+{
+  font-size: 16px;
+  word-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  color: #292B2C;
+}
+.line{
+  height: 3px;
+  width: 20px;
+  background-color: orange;
+  position: absolute;
+  left: -27px;
+  top: 32%;
+}
+
+.about-content img{
+  height: 400px;
+}
+.about-img{
+  position: absolute;
+  right: 0;
+  z-index: -100;
+}
+.about-img::before{
+  position: absolute;
+  content: '';
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0,0.5);
+}
+
+.about-btn{
+  border: none;
+  border-radius: 5px;
+  /* margin-top: 50px; */
+}
+
+.about-btn a{
+  background-color: #FFBC06;
+  color: white;
+  padding: 15px 40px 15px 30px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.about-btn .arrow{
+  font-size: 20px;
+  position: absolute;
+}
+/* *************** about us end *************************8 */
+/* ---------------------------------- COUNTING CSS START -------------------------------- */
+/* .keyboard{
+  background-image: linear-gradient(rgba(19, 41, 65, 0.8),rgba(11,25,40,.8)),url(./image/count.jpeg);
+  height: 250px;
+  background-position: center;background-size: cover;
+  color: white;
+  text-align: center;
+ }
+ .keyboard img{
+  height: 80px;
+  width: 80px;
+  margin-top: 40px;
+ }
+ .keyboard h1{
+  margin: 10px 0;
+ } */
+.count .content
+{
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 30px 0px;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+.bacimg
+{
+  position: relative;
+}
+.count .content
+{
+  align-content: space-between;
+  align-items: center;
+  
+}
+
+.bacimg::before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0,0.5);
+}
+.count .count-icon
+{
+  width: 20%;
+}
+.count .content h1{
+  font-size: 30px;
+  margin-top: 10px;
+}
+.count .content h3{
+  font-size: 24px;
+  align-items: center;
+}
+/* ---------------------------------- COUNTING CSS END-------------------------------- */
+/* ----------------------------- HAPPY STUDENT START ---------------------------- */
+.w-50{
+  width: 50%;
+}
+
+.line{
+  height: 3px;
+  width: 20px;
+  background-color: orange;
+  position: absolute;
+  left: -30px;
+  top: 50%;
+}
+
+.happy-head
+{
+  position: relative;
+  text-transform: uppercase;
+  margin-left: 30px;
+  /* margin-top: 50px; */
+}
+
+.happy h1{
+  letter-spacing: 1px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.happy-icon
+{
+  font-size: 100px;
+  color: rgba(0, 0, 0,0.08);
+  margin-top:30px;
+}
+
+.happy .detail{
+  text-align: justify;
+  color: #888888;
+}
+.happy-bottom{
+  align-items: center;
+  margin-top: 30px;
+}
+.happy-bottom img{
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.bottom-con h3{
+  color: #003366;
+  margin-bottom: 5px;
+}
+
+.bottom-con h5 i{
+  color: gold;
+}
+
+.bottom-con h5 span{
+  color: #888888;
+  font-style: italic;
+}
+
+.happy-img img{
+  height: 500px;
+  width: 500px;
+}
+
+.happy-img{
+  margin-left: 80px;
+}
+/* ------------------------------ HAPPY STUDENT END ----------------------------- */
+
+/* ============================== READ OUR DIFFERENCE START ======================= */
+.read
+{
+  background-color: #F7F7F7;
+  text-align: center;
+}
+.read-head
+{
+  position: relative;
+  text-transform: uppercase;
+  margin: 10px;
+}
+.read-head .line{
+  height: 2px;
+  width: 20px;
+  background-color: orange;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  margin-right: 10px;
+  border-radius: 25%;
+}
+.read h1
+{
+  margin-bottom: 16px;
+}
+.read .w-33
+{
+  padding: 0px 15px;
+}
+.read .readimg
+{
+  flex-wrap: wrap;
+}
+.read .content
+{
+  background-color: white;
+  height: 300px;
+  /* flex-wrap: wrap; */
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px gray;
+  transition: 0.5s;
+}
+.read .content:hover{
+  transform: translateY(-3%);
+}
+.icon
+{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  background-color: #F6475F;
+  text-align: center;
+  border-radius: 100%;
+  margin-top: 10px;
+  transition: 0.4s;
+}
+.icon:hover
+{
+  outline: 2px solid white;
+  outline-offset: -7px;
+}
+.icon i
+{
+  font-size: 75px;
+  color: white;
+}
+.read .content h2
+{
+  padding-top: 20px;
+  font-size: 20px;
+}
+.read .content p
+{
+  padding-top: 10px;
+  color: #888888;
+}
+/* ============================== READ OUR DIFFERENCE END ======================= */
+/* ===============================STUDENT PLACEMENT start================================ */
+.student
+{
+  text-align: center;
+
+}
+.student .stu-head
+{
+  position: relative;
+}
+
+.student .line{
+  height: 3px;
+  width: 20px;
+  background-color: orange;
+  position: absolute;
+  left: 40%;
+  top: 10px;
+}
+.student p
+{
+  margin: 10px;
+}
+.student h1
+{
+  margin-bottom: 16px;
+}
+.student .samll-div
+{
+  height: 30px;
+}
+.student .com-name
+{
+  justify-content: space-between;
+}
+.student .com-img
+{
+  width: 175px;
+  /* background-color: #888888; */
+  border: 1px solid black;
+  padding: 0px 5px;
+}
+.student .com-img img
+{
+  width: 100%;
+  height: 100%;
+}
+/* ===============================STUDENT PLACEMENT end================================ */
+/* ================== Our Demanded Course  start =========================== */
+.our
+{
+  padding-bottom: 50px;
+}
+.our .our-head
+{
+  margin-bottom: 16px;
+  font-size: 22px;
+}
+.our .contan a
+{
+    border: 1px solid #ddd;
+    font-size: 12px;
+    padding: 2px 5px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    margin-right: 4px;
+}
+.our .contan
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.our .more a{display: block !important;}
+
+
+
+
+/* ================== Our Demanded Course  end =========================== */
+/* ================= footer start =========================== */
+footer .pd-y
+{
+  padding: 100px 0px;
+  background-color: #003366;
+  color: white;
+}
+footer .d-flex .pd-x
+{
+  padding: 0px 15px;
+}
+footer .logo
+{
+  width: 265px;
+  height: 70px;
+  margin-bottom: 15px;
+}
+footer .logo img{
+  width: 100%;
+  height: 100%;
+}
+footer .s-1 p
+{
+  font-size: 14px;
+  text-align: justify;
+  padding-bottom: 15px;
+}
+footer .folw
+{
+  margin: 0px 0px 20px;
+  padding-top: 16px;
+  font-size: 16px;
+  color: #FFBC31;
+}
+
+footer .social li
+{
+  width: 30px ;
+  height: 30px;
+  padding: 2px;
+  text-align: center;
+  justify-self: center;
+}
+footer .social li a
+{
+  width: 25px ;
+  height: 25px;
+  padding-top: 3px;
+  border-radius: 5px;
+  background-color: #1A4876;
+}
+footer .s-2 
+{
+  width: 600px;
+}
+footer .s-3
+{
+  width: 900px;
+}
+footer .s-2 h2
+{
+  font-size: 16px;
+  margin: 10px 0px 20px;
+}
+footer .s-2 li
+{
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+footer .s-2 li i
+{
+  padding-right: 7px;
+  align-items: center;
+}
+footer .s-3 .head{
+  margin: 10px 0px 20px;
+  font-size: 16px;
+}
+footer .s-3 .head-name
+{
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+footer .s-3 .head-offi{
+  margin-bottom: 8px;
+}
+footer .s-3 .head-name a , .head a
+{
+  font-weight: bolder;
+  color: #EAA800;
+}
+footer .s-3 .other h6
+{
+  margin-bottom: 8px;
+}
+footer .s-3 li i
+{
+  padding-right: 7px;
+  align-items: center;
+}
+footer .s-3 li
+{
+  display: flex;
+  color: white;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+
+
+/* ================= footer start =========================== */
+
